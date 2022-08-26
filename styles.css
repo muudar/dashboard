@@ -154,7 +154,7 @@ html, body {
     grid-column: 3/7;
     font-weight:bold;
     margin-top: 10px;
-    margin-left: -50px;
+    margin-left: -35px;
 }
 
 #secondAvatar{
@@ -164,7 +164,7 @@ html, body {
 }
 
 #nameText{
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .buttonsBox{
@@ -180,9 +180,9 @@ html, body {
     color:white;
     font-weight: bold;
     border-radius: 30px;
-    width: 135px;
-    height: 50px;
+    width: 120px;
+    height: 40px;
     border: none;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
 }
