@@ -56,6 +56,7 @@ html, body {
 }
 
 .contentBar{
+    display: flex;
     grid-column:3/-1;
     grid-row: 3/-1;
     background-color:rgba(226,232,240,255);
@@ -187,7 +188,6 @@ html, body {
 
 .contentBar{
     display: flex;
-    flex-direction: column;
     padding-top: 30px;
 }
 
@@ -248,4 +248,89 @@ html, body {
 
 .projectButtons > span{
     cursor:pointer;
+}
+
+.projects{
+    height: 90%;
+}
+
+.announcementBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    box-shadow: 5px 7px 8px #888888;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.right-side-bar{
+    width: 100%;
+}
+
+.content-bar-Header{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.announcement-section{
+    width: 70%;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+#noBorder{
+    border: none;
+}
+
+.side-bar-title{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.side-bar-description{
+    font-size: 15px;
+    color: rgba(99,99,99,255);
+}
+
+.trending-box{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.trending-text{
+    margin-left: 15px;
+}
+
+.trending-bar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+    box-shadow: 5px 7px 8px #888888;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#trending-avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.trending-tag{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.trending-status{
+    font-size: 15px;
+    color: rgba(99,99,99,255);
 }
